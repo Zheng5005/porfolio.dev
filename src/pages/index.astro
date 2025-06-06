@@ -13,36 +13,37 @@ import TitleSection from "@/components/TitleSection.astro"
 ---
 
 <Layout
-  title="Porfolio de midudev - Desarrollador y Programador Web con 15 años de experiencia"
-  description="Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas."
+  title="Portfolio FerDevCraft - Software Engineer"
+  description="Hire FerDevCraft to make your app"
 >
   <main class="px-4">
     <SectionContainer class="py-16 md:py-36">
       <Hero>
-      </slot>
-    </Hero>
+        </slot>
+      </Hero>
     </SectionContainer>
+
     <div class="space-y-24">
-    <SectionContainer id="experiencia">
+    <SectionContainer id="experience">
       <TitleSection>
         <Briefcase class="size-8" />
-        Experiencia laboral
+        Work Experience
       </TitleSection>
       <Experience />
     </SectionContainer>
 
-    <SectionContainer id="proyectos">
+    <SectionContainer id="projects">
       <TitleSection>
-        <CodeIcon class="size-7" />
-        Proyectos
+        <CodeIcon class="size-8" />
+        Projects
       </TitleSection>
       <Projects />
     </SectionContainer>
 
-    <SectionContainer id="sobre-mi">
+    <SectionContainer id="about-me">
       <TitleSection>
         <ProfileCheck class="size-8" />
-        Sobre mí
+        About Me
       </TitleSection>
       <AboutMe />
     </SectionContainer>
